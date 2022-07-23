@@ -5,11 +5,16 @@ body{
 	text-transform: uppercase;
 	letter-spacing: .5em;
 	top:15%;
-	background: linear-gradient(to right, blue, green);
+	background: linear-gradient(to right, blue, green) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
  }
 
  h1 {
  	font: 600 3.5em 'Raleway', sans-serif;
+ 	font-size: 5vw;
  	color: rgba(0,0,0,.5);
  	text-align: center;
  	text-transform: uppercase;
